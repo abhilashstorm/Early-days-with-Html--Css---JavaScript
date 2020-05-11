@@ -1,0 +1,160 @@
+/*the navigation section section*/
+.bsccs{
+	float:right;
+	font-weight:bold;
+	text-transform:capitalize;
+	font-size:60px;
+     margin-top:20px;
+     margin-left:20%;
+
+}
+.first{
+	width:100%;
+	display:flex;
+	background-image:url("sky.png");
+}
+.logo{
+	width:120px;
+	height:auto;
+}
+.nav{
+	position: sticky;
+	top:0;
+}
+.nav a{
+	color:white;
+	text-decoration:none;
+}
+.nav li{
+
+	display:block;
+	float:left;
+	font-size:20px;
+	font-weight:bold;
+	padding:14px 50px;
+	text-align:center;
+
+
+}
+ul{
+
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:blue;
+}
+
+}
+.nav li:hover{
+	background-color:lightblue;
+	
+}
+.nav a:hover{
+	color:black;
+}
+
+/*the side navigation table*/
+.sidenav{
+	font-size:20px;
+	list-style-type:none;
+	padding-top:20px;
+}
+.sidenav li :first child{
+	margin-top:40px;
+}
+.sidenav li{
+	background-color:lightblue;
+	margin-right:80%;
+	border-bottom:1px solid white;
+	border-collapse:collapse;
+	padding-top:20px;
+}
+.sidenav li:hover{
+	background-color:blue;
+	width:20%;
+
+}
+.image{
+	width:78%;
+	float:right;
+	position:absolute;
+	top:200px;
+	left:21%;
+	
+}
+.card{
+	margin-left:5%;
+	margin-right:5px;
+	margin-top:50px;
+	margin-bottom:100px;
+	background-image:url("cardback.jpg");
+	background-size:contain;
+	width:60%;
+	height:400px;
+	font-weight:bold;
+}
+.card2{
+
+	margin-right:5%;
+	margin-left:40%;
+	margin-top:100px;
+	margin-bottom:250px;
+	background-image:url("cardback.jpg");
+	background-size:contain;
+	width:60%;
+	height:400px;
+	font-weight:bold;
+}
+.info{
+	font-weight:bold;
+	text-transform:capitalize;
+	font-size:70px;
+	position:relative;
+	left:120px;
+	top:90px;
+	color:blue;
+
+}
+.info_cot{
+	position:relative;
+	left:120px;
+	top:120px;
+}
+.text{
+	position:absolute;
+	top:400px;
+	left:40%;
+	font-size:60px;
+	font-weight:bold;
+	opacity:0;
+
+
+}
+.container{
+	opacity:0.5;
+}
+.container:hover{
+	transition:0.5s ease-out;
+	opacity:1;
+
+}
+.wiawno{
+	text-align:right;
+	background-color:lightblue;
+	padding-top:40px;
+	color:white;
+	line-height:40px;
+}
+.img{
+	background-color:lightblue;
+	padding:90px;
+}
+body{
+	background-image:url("background.jpg");
+
+}
+div .blue{
+	margin: 5px;
+	background-image:url("blue_orange.jpg");
+}
