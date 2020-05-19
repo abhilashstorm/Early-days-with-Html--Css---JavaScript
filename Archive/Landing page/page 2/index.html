@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title> Slideshow with 3D Effect </title>
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+  </head>
+  <body>
+      
+    <nav id="nav">
+      <button id="prev" class="nav-item" data-increment="-1">
+        <img src="icon-prev.png" alt="prev" />
+      </button>
+      <button id="next" class="nav-item" data-increment="1">
+        <img src="icon-next.png" alt="next" />
+      </button>
+    </nav>
+     
+    <section class="carousel">
+      <div class="stage">
+        
+        <!-- coidea:slideshow:item START -->
+        <div class="item">
+          <div class="bcg" style="background-image: url(image1.jpg);"></div>
+          <div class="content">
+            <div class="description">
+              <p class="description-target">1483 - 1843</p>
+            </div>
+            <div class="headline">
+              <h2 class="headline-target">Dream big</h2>
+            </div>
+            <div class="discover-more">
+              <a href="#" class="discover-more-target">Discover More</a>
+            </div>
+          </div>
+        </div>
+          
+        <div class="item">
+          <div class="bcg" style="background-image: url(image2.jpg);"></div>
+          <div class="content">
+            <div class="description">
+              <p class="description-target">1723 - 1798</p>
+            </div>
+            <div class="headline">
+              <h2 class="headline-target">Pray bigger</h2>
+            </div>
+            <div class="discover-more">
+              <a href="#" class="discover-more-target">Discover More</a>
+            </div>
+          </div>
+        </div>
+   
+        <div class="item">
+          <div class="bcg" style="background-image: url(image3.jpg);"></div>
+          <div class="content">
+            <div class="description">
+              <p class="description-target">1845 - 1853</p>
+            </div>
+            <div class="headline">
+              <h2 class="headline-target">Keep going</h2>
+            </div>
+            <div class="discover-more">
+              <a href="#" class="discover-more-target">Discover More</a>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>

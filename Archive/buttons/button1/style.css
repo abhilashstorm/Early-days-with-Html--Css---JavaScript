@@ -15,7 +15,7 @@ a{
 	letter-spacing:2px;
 	text-decoration:none;
 	text-transform:uppercase;
-	box-shadow:0 20px 50px rgba(0,0,0,.5);
+	box-shadow:0 20px 50px rgba(0,0,0,.3);
 	overflow:hidden;
 }
 a:before
@@ -101,3 +101,35 @@ a:hover span:nth-child(4){
 		transform:translateX(-100%);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

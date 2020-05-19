@@ -32,7 +32,7 @@ span{
 	transform-style:preserve-3d;
 	backface-visibility: hidden;
 	color:#fff;
-	transition:1s;
+	transition:0.5s;
 }
 a span.front{
 	transform:rotateX(0deg) translateZ(20px);
@@ -42,6 +42,8 @@ a:hover span.front{
 }
 a span.back{
 	transform:rotateX(-180deg) translateZ(20px);
+	background:linear-gradient(to left,#ffdd1f,#c31a5b);
+
 }
 a:hover span.back{
 	transform:rotateX(0deg) translateZ(20px);
@@ -63,3 +65,19 @@ span.center:before{
 a:hover span.center{
 	transform:rotateX(180deg);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
